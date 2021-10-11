@@ -1379,7 +1379,7 @@ melt_startle <- melt(map_mtrx)
 ## change aesthetics
 ggplot(data=melt_startle, aes(x=Var1, y=Var2, fill=value)) + 
   geom_tile() +
-  labs(x=NULL, y=NULL, fill="Pearson's r", title="Startle and Attentional Control (tau) Correlation in PD/A") +
+  labs(x=NULL, y=NULL, fill="Pearson's r", title="Startle and Attentional Control (tau) Correlation in PD/NA") +
   scale_fill_gradient2(mid="#FBFEF9", low="#0c6291", high="#A63446", limits=c(-1,1)) +
   theme_classic() +
   scale_x_discrete(expand=c(0,0)) +
@@ -1793,7 +1793,7 @@ melt_corr <- melt(map_corr_mtrx)
 ## change aesthetics
 ggplot(data=melt_corr, aes(x=Var1, y=Var2, fill=value)) + 
   geom_tile() +
-  labs(x=NULL, y=NULL, fill="Pearson's r", title="Corrugator and Attentional Control (tau) Correlation in PD/A") +
+  labs(x=NULL, y=NULL, fill="Pearson's r", title="Corrugator and Attentional Control (tau) Correlation in PD/NA") +
   scale_fill_gradient2(mid="#FBFEF9", low="#0c6291", high="#A63446", limits=c(-1,1)) +
   theme_classic() +
   scale_x_discrete(expand=c(0,0)) +
@@ -2212,7 +2212,7 @@ melt_startle <- melt(map_mtrx)
 ## change aesthetics
 ggplot(data=melt_startle, aes(x=Var1, y=Var2, fill=value)) + 
   geom_tile() +
-  labs(x=NULL, y=NULL, fill="Pearson's r", title="Startle and Attentional Control (tau) Correlation in PD/A") +
+  labs(x=NULL, y=NULL, fill="Pearson's r", title="Startle and Attentional Control (tau) Correlation in HC") +
   scale_fill_gradient2(mid="#FBFEF9", low="#0c6291", high="#A63446", limits=c(-1,1)) +
   theme_classic() +
   scale_x_discrete(expand=c(0,0)) +
@@ -2626,7 +2626,7 @@ melt_corr <- melt(map_corr_mtrx)
 ## change aesthetics
 ggplot(data=melt_corr, aes(x=Var1, y=Var2, fill=value)) + 
   geom_tile() +
-  labs(x=NULL, y=NULL, fill="Pearson's r", title="Corrugator and Attentional Control (tau) Correlation in PD/A") +
+  labs(x=NULL, y=NULL, fill="Pearson's r", title="Corrugator and Attentional Control (tau) Correlation in HC") +
   scale_fill_gradient2(mid="#FBFEF9", low="#0c6291", high="#A63446", limits=c(-1,1)) +
   theme_classic() +
   scale_x_discrete(expand=c(0,0)) +
